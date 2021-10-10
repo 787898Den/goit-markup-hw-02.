@@ -21,6 +21,9 @@
 .link {
   text-decoration: none;
 }
+.current {
+  color: var(--accent-color);
+}
 .logo {
   font-family: "Raleway" sans-serif;
   font-style: normal;
