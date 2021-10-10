@@ -1,0 +1,138 @@
+:root {
+  --header-color: #212121;
+  --primary-text-color: #757575;
+  --second-text-color: #ffffff;
+  --primary-title-color: #212121;
+  --accent-color: #2196f3;
+  --third-text-color: rgba(255, 255, 255, 0.6);
+}
+.body {
+  font-family: "Roboto" sans-serif;
+  color: var(--header-color);
+}
+/*-----header----*/
+.header {
+  background-color: var(--second-text-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.studio-dark {
+  color: var(--primary-title-color);
+}
+.studio-light {
+  color: var(--second-text-color);
+}
+.menu-link,
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.header-contact {
+  color: var(--primary-text-color);
+}
+.header-contact:hover,
+.header-contact:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+/*-----hero----- */
+.hero-heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+.hero-title-about {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+}
+.about-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+}
+.btn {
+  cursor: pointer;
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+  background-color: #f5f4fa;
+}
+.button {
+  cursor: pointer;
+}
+
+/* -----footer----- */
+.footer {
+  background-color: #2f303a;
+}
+.footer-address-link,
+.contact-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.contact-link {
+  color: var(--third-text-color);
+}
