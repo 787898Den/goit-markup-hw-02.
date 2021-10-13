@@ -7,8 +7,8 @@
   --fourth-text-color: #f5f4fa;
   --background-color-footer: #2f303a;
 }
-.body {
-  font-family: "Roboto" sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   color: var(--primary-title-color);
 }
 /*-----header----*/
@@ -21,8 +21,10 @@
 .link {
   text-decoration: none;
 }
-.logo {
-  font-family: "Raleway" sans-serif;
+.logo-link,
+.studio-light,
+.studio-dark {
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -42,7 +44,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--header-color);
+  color: var(--primary-title-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -65,8 +67,6 @@
   background-color: var(--background-color-footer);
 }
 .hero-heading {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -85,7 +85,6 @@
   color: var(--primary-title-color);
 }
 .hero-title-about {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -101,8 +100,7 @@
   color: var(--primary-text-color);
 }
 .heading-button {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -114,6 +112,7 @@
   cursor: pointer;
 }
 .button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -136,8 +135,8 @@
 }
 .footer-address-link,
 .contact-link {
-  font-style: normal;
-  font-weight: normal;
+  font-style: inherit;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
